@@ -1,0 +1,198 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.resume {
+  width: 798px;
+  height: 1100px;
+  background: #000;
+  margin-top: 20px;
+  margin-left: 25%;
+  display: flex;
+}
+.left {
+  width: 35%;
+  height: 100%;
+  background: #010135;
+}
+.right {
+  background: rgba(255, 255, 255, 0.913); 
+  width: 65%;
+  height: 100%;
+  
+}
+.left img {
+  height: 14%;
+  width: 55%;
+  border-radius: 83px;
+  margin-left: 60px;
+  margin-top: 30px;
+}
+.left h3 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 15px;
+  text-align: center;
+  line-height: 23px;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 3px;
+  margin-top: 3px;
+}
+.left p {
+  color: rgba(9, 9, 9, 0.932);
+  text-transform: uppercase;
+  font-size: 12px;
+  text-align: center;
+  line-height: 23px;
+  font-family: "Times New Roman", Times, serif;
+}
+hr {
+  width: 75%;
+  margin-left: 12%;
+  margin-top: 7%;
+  border: 1px solid rgba(255, 235, 205, 0.436);
+}
+.left h2 {
+  color: white;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  /* text-align: center; */
+  margin-top: 40px;
+  margin-left: 30px;
+}
+.left ul li {
+  list-style: none;
+  color: white;
+  line-height: 30px;
+  margin-left: 30px;
+  margin-top: 8px;
+}
+.left h5 {
+  color: rgb(82, 66, 181);
+  margin-top: 15px;
+  margin-left: 30px;
+  line-height: 15px;
+}
+.left h4 {
+  color: white;
+  font-size: 12px;
+  width: 80%;
+  margin-left: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.left .college {
+  font-size: 8px;
+  font-weight: 600;
+  text-align: left;
+  margin-left: 30px;
+  /* width: 300px; */
+}
+.skills {
+  width: 100%;
+  height: 7px;
+  background: rgb(150, 159, 158);
+  margin-left: 2px;
+  margin-top: 1%;
+  margin-right: 250px;
+}
+.skills h1 {
+  background: rgba(0, 157, 255, 0.59);
+  height: 100%;
+  width: 70%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+
+}
+table td {
+padding: 10px 30px;
+}
+.right .ri{
+  margin-left:15px;
+  color: rgba(0, 157, 255, 2.99949);
+}
+.right .pro{
+  margin-left: 15px;
+}
+h4
+{
+  margin-top: 2%;
+}
+.en{
+  width: 80%;
+  height: 5px;
+  background: rgb(233, 223, 223);
+  margin-left: 11%;
+  margin-top: 4%;
+  
+}
+.en h1{
+  background: rgba(12, 138, 229, 0.365);
+  height: 100%;
+  width: 70%;
+  border-top-right-radius:
+  border-bottom-right-radius: 200x;
+}
+.sp{
+  width: 80%;
+  height: 5px;
+  background: rgb(233, 223, 223);
+  margin-left: 11%;
+  margin-top: 4%;
+  
+
+}
+.sp h1{
+  background: rgba(12, 138, 229, 0.365);
+  height: 100%;
+  width: 70%;
+  border-top-right-radius:
+  border-bottom-right-radius: 200x;
+
+}
+.hi{
+  width: 80%;
+  height: 5px;
+  background: rgb(233, 223, 223);
+  margin-left: 11%;
+  margin-top: 4%;
+}
+.hi h1{
+  background: rgba(12, 138, 229, 0.365);
+  height: 100%;
+  width: 70%;
+  border-top-right-radius:
+  border-bottom-right-radius: 200x;
+}
+
+.in ul li {
+  /* display: flex;
+  width: 120px;
+  height: 15px; */
+  list-style: none;
+    
+    display: inline-block;
+    margin: 10px 30px;
+}
+h6{
+  margin-top: ;
+}
+body{
+  background: linear-gradient(45deg ,#d2001a,#7462ff,#23d5ab);
+    background-size: 300% 300%;
+    animation: color 12s;
+}
+@keyframes color{
+  0%{
+      background-position: 0 50%;
+
+  }
+  50%{
+      background-position: 100% 50%;
+
+  }
+  100%{
+      background-position: 0 50%;
+  }
+}
